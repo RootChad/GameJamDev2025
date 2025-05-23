@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 437653792505393592}
   - component: {fileID: 2236726510840619784}
   - component: {fileID: 2487889312663378175}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 1338221307048368047}
   - component: {fileID: 7420413020061483660}
   - component: {fileID: 4844369641319987593}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412491745015181956}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000035762784}
+  m_LocalRotation: {x: -1, y: -0.00000058114523, z: -0.00000035762787, w: -2.0862164e-13}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -186,9 +186,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69744695b531df4e936ede91e2780c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkable: 0
-  placable: 0
+  walkable: 1
+  placeable: 0
   placementPlaceholder: {fileID: 1384608993523062703}
+  <Neighbors>k__BackingField:
+  - {fileID: 6632707107860518090}
+  - {fileID: 1713777234042784102}
+  - {fileID: 4787722497582037014}
+  - {fileID: 868948742768964678}
+  debugWalkableMaterial: {fileID: 2100000, guid: f196e2410179ac845810f1815c088705, type: 2}
+  debugUnwalkableMaterial: {fileID: 2100000, guid: 1dfd7052a548cd94c964cea021b7f97a, type: 2}
+  neighborMaterial: {fileID: 2100000, guid: 38f5d90b65070a74780dde321f1dd5b9, type: 2}
 --- !u!65 &4844369641319987593
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -221,7 +229,7 @@ GameObject:
   - component: {fileID: 974747830463821405}
   - component: {fileID: 2143357561763227427}
   - component: {fileID: 1569526672281684683}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +315,7 @@ GameObject:
   - component: {fileID: 9134996695849030889}
   - component: {fileID: 221115464943524740}
   - component: {fileID: 5259609059329745656}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +403,7 @@ GameObject:
   - component: {fileID: 6542519001283769417}
   - component: {fileID: 868948742768964678}
   - component: {fileID: 466295942603663796}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +418,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2407539852264647785}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: -0.49999994, y: 0.5000002, z: 0.49999982, w: -0.5000001}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -482,9 +490,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69744695b531df4e936ede91e2780c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkable: 0
-  placable: 0
+  walkable: 1
+  placeable: 0
   placementPlaceholder: {fileID: 2394600479808062755}
+  <Neighbors>k__BackingField:
+  - {fileID: 6632707107860518090}
+  - {fileID: 1713777234042784102}
+  - {fileID: 7420413020061483660}
+  - {fileID: 4777563029923472131}
+  debugWalkableMaterial: {fileID: 2100000, guid: f196e2410179ac845810f1815c088705, type: 2}
+  debugUnwalkableMaterial: {fileID: 2100000, guid: 1dfd7052a548cd94c964cea021b7f97a, type: 2}
+  neighborMaterial: {fileID: 2100000, guid: 38f5d90b65070a74780dde321f1dd5b9, type: 2}
 --- !u!65 &466295942603663796
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -519,7 +535,7 @@ GameObject:
   - component: {fileID: 6763333911364304577}
   - component: {fileID: 6632707107860518090}
   - component: {fileID: 4187623984173132061}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,9 +622,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69744695b531df4e936ede91e2780c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkable: 0
-  placable: 0
+  walkable: 1
+  placeable: 0
   placementPlaceholder: {fileID: 1488921110144337811}
+  <Neighbors>k__BackingField:
+  - {fileID: 4787722497582037014}
+  - {fileID: 868948742768964678}
+  - {fileID: 7420413020061483660}
+  - {fileID: 4777563029923472131}
+  debugWalkableMaterial: {fileID: 2100000, guid: f196e2410179ac845810f1815c088705, type: 2}
+  debugUnwalkableMaterial: {fileID: 2100000, guid: 1dfd7052a548cd94c964cea021b7f97a, type: 2}
+  neighborMaterial: {fileID: 2100000, guid: 38f5d90b65070a74780dde321f1dd5b9, type: 2}
 --- !u!65 &4187623984173132061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -643,7 +667,7 @@ GameObject:
   - component: {fileID: 4111008398992528688}
   - component: {fileID: 4777563029923472131}
   - component: {fileID: 7874514082758845827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -730,9 +754,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69744695b531df4e936ede91e2780c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkable: 0
-  placable: 0
+  walkable: 1
+  placeable: 0
   placementPlaceholder: {fileID: 4587155063672761448}
+  <Neighbors>k__BackingField:
+  - {fileID: 6632707107860518090}
+  - {fileID: 1713777234042784102}
+  - {fileID: 4787722497582037014}
+  - {fileID: 868948742768964678}
+  debugWalkableMaterial: {fileID: 2100000, guid: f196e2410179ac845810f1815c088705, type: 2}
+  debugUnwalkableMaterial: {fileID: 2100000, guid: 1dfd7052a548cd94c964cea021b7f97a, type: 2}
+  neighborMaterial: {fileID: 2100000, guid: 38f5d90b65070a74780dde321f1dd5b9, type: 2}
 --- !u!65 &7874514082758845827
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -767,7 +799,7 @@ GameObject:
   - component: {fileID: 7608784502177460964}
   - component: {fileID: 1713777234042784102}
   - component: {fileID: 3541619342453776698}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,9 +886,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69744695b531df4e936ede91e2780c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkable: 0
-  placable: 0
+  walkable: 1
+  placeable: 0
   placementPlaceholder: {fileID: 3695706099729866195}
+  <Neighbors>k__BackingField:
+  - {fileID: 4787722497582037014}
+  - {fileID: 868948742768964678}
+  - {fileID: 7420413020061483660}
+  - {fileID: 4777563029923472131}
+  debugWalkableMaterial: {fileID: 2100000, guid: f196e2410179ac845810f1815c088705, type: 2}
+  debugUnwalkableMaterial: {fileID: 2100000, guid: 1dfd7052a548cd94c964cea021b7f97a, type: 2}
+  neighborMaterial: {fileID: 2100000, guid: 38f5d90b65070a74780dde321f1dd5b9, type: 2}
 --- !u!65 &3541619342453776698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -889,7 +929,7 @@ GameObject:
   - component: {fileID: 8545897232210786099}
   - component: {fileID: 183624826284555518}
   - component: {fileID: 4721602287727715375}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -977,7 +1017,7 @@ GameObject:
   - component: {fileID: 7673713248920108269}
   - component: {fileID: 4787722497582037014}
   - component: {fileID: 5025636270034726756}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -992,7 +1032,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3219200046954479041}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1064,9 +1104,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69744695b531df4e936ede91e2780c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkable: 0
-  placable: 0
+  walkable: 1
+  placeable: 0
   placementPlaceholder: {fileID: 3184149422792291266}
+  <Neighbors>k__BackingField:
+  - {fileID: 6632707107860518090}
+  - {fileID: 1713777234042784102}
+  - {fileID: 7420413020061483660}
+  - {fileID: 4777563029923472131}
+  debugWalkableMaterial: {fileID: 2100000, guid: f196e2410179ac845810f1815c088705, type: 2}
+  debugUnwalkableMaterial: {fileID: 2100000, guid: 1dfd7052a548cd94c964cea021b7f97a, type: 2}
+  neighborMaterial: {fileID: 2100000, guid: 38f5d90b65070a74780dde321f1dd5b9, type: 2}
 --- !u!65 &5025636270034726756
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1099,7 +1147,7 @@ GameObject:
   - component: {fileID: 8028229550115192462}
   - component: {fileID: 8076307697807298267}
   - component: {fileID: 2259145787597162740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1185,7 +1233,7 @@ GameObject:
   - component: {fileID: 9120781516637865273}
   - component: {fileID: 6646866298578728045}
   - component: {fileID: 8506869432236422296}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1269,7 +1317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7604441344896637557}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Placement Placeholders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1306,7 +1354,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9026939664648746880}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Faces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1344,7 +1392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1285486306942262897}
   - component: {fileID: 5055280584752396235}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1388,3 +1436,29 @@ MonoBehaviour:
   - {fileID: 868948742768964678}
   - {fileID: 7420413020061483660}
   - {fileID: 4777563029923472131}
+  TopLeftForwardNeighbor: {fileID: 0}
+  TopForwardNeighbor: {fileID: 0}
+  TopRightForwardNeighbor: {fileID: 0}
+  TopLeftNeighbor: {fileID: 0}
+  TopNeighbor: {fileID: 0}
+  TopRightNeighbor: {fileID: 0}
+  TopLeftBackwardNeighbor: {fileID: 0}
+  TopBackwardNeighbor: {fileID: 0}
+  TopRightBackwardNeighbor: {fileID: 0}
+  LeftForwardNeighbor: {fileID: 0}
+  ForwardNeighbor: {fileID: 0}
+  RightForwardNeighbor: {fileID: 0}
+  LeftNeighbor: {fileID: 0}
+  RightNeighbor: {fileID: 0}
+  LeftBackwardNeighbor: {fileID: 0}
+  BackwardNeighbor: {fileID: 0}
+  RightBackwardNeighbor: {fileID: 0}
+  BottomLeftForwardNeighbor: {fileID: 0}
+  BottomForwardNeighbor: {fileID: 0}
+  BottomRightForwardNeighbor: {fileID: 0}
+  BottomLeftNeighbor: {fileID: 0}
+  BottomNeighbor: {fileID: 0}
+  BottomRightNeighbor: {fileID: 0}
+  BottomLeftBackwardNeighbor: {fileID: 0}
+  BottomBackwardNeighbor: {fileID: 0}
+  BottomRightBackwardNeighbor: {fileID: 0}

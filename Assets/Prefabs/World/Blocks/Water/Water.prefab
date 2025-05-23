@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4735953312730744702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 868948742768964678, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: walkable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285486306942262897, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285486306942262897, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285486306942262897, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285486306942262897, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285486306942262897, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285486306942262897, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285486306942262897, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285486306942262897, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285486306942262897, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285486306942262897, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338221307048368047, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e833505b7f1cb2947b172f1601b3a3eb, type: 2}
+    - target: {fileID: 1713777234042784102, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: walkable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4111008398992528688, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e833505b7f1cb2947b172f1601b3a3eb, type: 2}
+    - target: {fileID: 4777563029923472131, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: walkable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787722497582037014, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: walkable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542519001283769417, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e833505b7f1cb2947b172f1601b3a3eb, type: 2}
+    - target: {fileID: 6632707107860518090, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: walkable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763333911364304577, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e833505b7f1cb2947b172f1601b3a3eb, type: 2}
+    - target: {fileID: 7420413020061483660, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: walkable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608784502177460964, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e833505b7f1cb2947b172f1601b3a3eb, type: 2}
+    - target: {fileID: 7673713248920108269, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e833505b7f1cb2947b172f1601b3a3eb, type: 2}
+    - target: {fileID: 8528183516522600963, guid: a11227d925d64574c8eae4aca851f537, type: 3}
+      propertyPath: m_Name
+      value: Water Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a11227d925d64574c8eae4aca851f537, type: 3}

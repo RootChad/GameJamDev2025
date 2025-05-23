@@ -2,14 +2,8 @@ using UnityEngine;
 
 namespace Ded
 {
-    public class OrientedObject : MonoBehaviour, IPlacable
+    public class OrientedObject : PlaceableObject
     {
-
         [field:SerializeField] public Orientation CurrentOrientation { get; private set; }
-
-        public void Place()
-        {
-
-        }
     }
 }
